@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <script src='//fm-staging-us-app-cdnjs.s3.amazonaws.com/crm/6216835/5482074.js' chat='true'></script>
+    
+    <!-- GoogleFonts--> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Montserrat:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+
+    <!--Font awesome for icon-->
+     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    
+    <!-- Bootstrap-css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">  
+    
+    <!-- Bootstrap-js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script> 
+
+     <!--Local css-->
+     <link href="../css/fooddesign.css" rel="stylesheet" >
+
+    <title>FoodService.com</title>
+    <link rel="icon" type="text/css" href="https://cdn3.vectorstock.com/i/thumb-large/98/57/f-logo-letter-outline-black-and-white-monogram-vector-5939857.jpg">
+</head>
+<body >
+<body>
+<nav class="navbar bg-dark navbar-expand-lg navbar-dark" >
+   <h4 class="navbar-brand" href="">Food <span style="color : #ff4c68;">Service</span></h4>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+   </button>
+   <ul class="navbar-nav ml-auto" >
+    <li class="nav-item" style="padding: 15px;padding-right:0"> </li>
+    <li class="nav-item" style="padding-right: 15px;padding-left:15px" >	
+  <a class="nav-link cart" href="varuthu"  id="navbar" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-shopping-cart"></i>
+     Cart
+  </a>
+</nav>
+    
+       <div class="vis bg-light">
+        <div class="row ">
+            <div class="col-lg-3 col-md-3 col-sm-5 text-dark ">
+                <img src="" alt="no Photos" class="foodimg" />
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-7 text-dark">
+                <div class="fooditem">
+                    <div class="absfood"> 
+                        <h3 class="foodhead"></h3>
+                        <p class="fooddes hot-cat"></p>
+                        <p class="foodloc"></p>
+                        <p class="foodrating"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+        <div class="d-flex col-lg-10 col-md-10  col-sm-12 " style="margin-top: 1rem;margin-left:4rem;margin-bottom: 3rem; ">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+        </div>
+       
+       <div class="container" id="container">
+        <!-- <div class="row foodcontainer" >
+            <div class="col col-lg-8 col-sm-8 col-md-8 col-8">
+             <p class="foodcontainer-rating"><i class="far fa-star"></i> </p>
+             <h5 class="foodcontainer-name">sudo apt-get install redis-server</h5>
+             <p class="foodcontainer-descriptaion">non-veg</p>
+             <p class="foodcontainer-price">&#x20B9 300</p>
+            </div>
+            <div class="col col-lg-3 col-md-3 col-sm-3 col-3">
+                <div style="width:200px;height:200px;">
+                <img src="https://www.africanbites.com/wp-content/uploads/2018/04/IMG_0165.jpg" class="foodcontainer-image"/>
+                </div>
+            </div>
+        </div> -->
+        <!-- <div class="row foodcontainer">
+            <div class="col col-lg-8 col-sm-8 col-md-8 col-8">
+             <p class="foodcontainer-rating"><i class="far fa-star"></i> </p>
+             <h5 class="foodcontainer-name">sudo apt-get install redis-server</h5>
+             <p class="foodcontainer-descriptaion">non-veg</p>
+             <p class="foodcontainer-price">&#x20B9 300</p>
+            <btn id= "val1" class="btn btn-sub btn-light">-</btn>
+            <div id="val1" class="btn btn-icre-decre btn-light " value="0">add</div>
+            <button id="val1" class="btn btn-add btn-light">+</button>
+             -->
+            <!-- </div>
+            <div class="col col-lg-3 col-md-3 col-sm-3 col-3">
+                <div style="width:200px;height:200px;">
+                <img src="https://www.africanbites.com/wp-content/uploads/2018/04/IMG_0165.jpg" class="foodcontainer-image"/>
+                </div>
+            </div> -->
+        </div>
+       </div>
+    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="../javascript/Fooddesign.js"></script>
+    
+</body>
+</html>
+
+ <!-- <div class="row"> 
+               <div class="col col-lg-8 col-md-8 col-sm-8 foodcontainer ">
+                   <div class="row">
+                       <div class="col">
+                        <p class="foodcontainer-rating"><i class="far fa-star"></i> </p>
+                       <h5 class="foodcontainer-name">sudo apt-get install redis-server</h5>
+                       <div class="row">
+                           <div class="col col-lg-2"><p class="foodcontainer-price">&#x20B9 300</p></div>
+                           <div class="col btn-incre  col-lg-6"><button class="btn btn-sub btn-light">-</button>
+                         <div class="col col-lg-1"> 
+                               <div class="btn btn-icre-decre btn-light " value="0">add</div>
+                            <div class="col col-lg-1"> 
+                               <button class="btn btn-add btn-light">+</button></div>
+                       </div>
+                       </div>
+                       <div class="col col-lg-3">
+                           <img src="../images/food.png" class="foodcontainer-image" />
+                        </div>
+
+                    </div>
+               </div>
+               <div class="col col-lg-8 col-md-8 col-sm-8 foodcontainer ">
+                <div class="row">
+                    <div class="col">
+                     <p class="foodrating"><i class="far fa-star"></i> </p>
+                    <h5 class="foodcontainer-name">sudo apt-get install redis-server</h5>
+                    <p class="foodcontainer-price">&#x20B9 300</p>
+                    </div>
+                    <div class="col col-lg-3">
+                        <img src="../images/food.png" class="foodcontainer-image" />
+                     </div>
+                 </div>
+            </div>
+            <div class="col col-lg-8 col-md-8 col-sm-8 foodcontainer ">
+                <div class="row">
+                    <div class="col">
+                     <p class="foodrating"><i class="far fa-star"></i> </p>
+                    <h5 class="foodcontainer-name">sudo apt-get install redis-server</h5>
+                    <p class="foodcontainer-price">&#x20B9 300</p>
+                    </div>
+                    <div class="col col-lg-4" id="varuthu">
+                        <img src="https://www.africanbites.com/wp-content/uploads/2018/04/IMG_0165.jpg" class="foodcontainer-image" />
+                     </div>
+                 </div>
+            </div>
+            </div>
+            <div class="row"> 
+                <div class="col col-lg-8 col-md-8 col-sm-8  foodcontainer "  >
+                   
+                   
+                </div>
+             </div>
+             <div class="row"> 
+                <div class="col col-lg-8 col-md-8 col-sm-8  foodcontainer ">
+                   
+                </div>
+             </div> -->
